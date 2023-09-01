@@ -786,7 +786,42 @@ div.img2{
 		margin: 1.5%;
 	}
 }
-/* End  Media Query For Desktop */ */
+/* End  Media Query For Desktop */ 
+@media only screen and (max-width: 768px) {
+	html{
+		font-size: 8px;
+	}
+    #hero {
+        min-height: 100vh;
+        display: block;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .pics, .welcome {
+        width: 100%;
+    }
+
+	.welcome h1{
+		font-size: 4rem;
+	}
+
+    .img1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .img2 {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .welcome {
+        padding: 20px;
+    }
+}
+
 
  body{
 	background-color: hwb(266 53% 11%);
