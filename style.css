@@ -394,7 +394,7 @@ div.img2{
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #118422 0%, #e9efe9 100%);
+	background-image: linear-gradient(60deg, #43434d 0%, #4c5064 100%);
 	opacity: 0.8;
 	z-index: -1;
 }
@@ -405,7 +405,7 @@ div.img2{
 }
 #services .service-item h2 {
 	font-size: 2rem;
-	color: rgb(255, 255, 255);
+	color: #00fc19;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	
@@ -458,10 +458,15 @@ div.img2{
 	font-size: 4rem;
 	font-weight: 500;
 }
+
+b.green{
+	color: #00fc19;
+}
 #projects .project-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
+	color: #00fc19;
 }
 #projects .project-info p {
 	color: white;
@@ -835,5 +840,5 @@ div.img2{
 
 
  body{
-	background-color: hwb(266 53% 11%);
+	background-color: hwb(0 100% 0%);
 }
