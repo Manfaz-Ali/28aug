@@ -363,6 +363,27 @@ div.img2{
 	justify-content: space-around;
 	
 	border: 4px red solid;
+	background-image: url(./img/map.jpg);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+.address-container::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #43434d 0%, #4c5064 100%);
+	opacity: 0.8;
+	z-index: -1;
+}
+
+.address-container div.address b{
+	color: #00fc19;
 }
 
 .address {
