@@ -362,7 +362,7 @@ div.img2{
 	align-items: center;
 	justify-content: space-around;
 	
-	border: 4px red solid;
+	/* border: 4px red solid; */
 	background-image: url(./img/map.jpg);
 	background-size: cover;
 	margin: 10px 5%;
@@ -391,6 +391,7 @@ div.img2{
 	padding-left: 30px;
 	margin-right: 20px;
 	font-size: 3rem;
+	color: #e9efe9;
 }
 
 .address-icon {
@@ -398,6 +399,7 @@ div.img2{
 	top: 35px;
 	left: 0;
 	font-size: 40px;
+	color: crimson ;
 }
 
 
@@ -510,10 +512,11 @@ b.green{
 }
 #projects .project-info p {
 	color: white;
+	overflow: auto;
 }
 #projects .project-img {
 	flex-basis: 50%;
-	height: 300px;
+	height: 400px;
 	overflow: hidden;
 	position: relative;
 }
@@ -558,6 +561,9 @@ b.green{
 }
 #about .col-right p {
 	margin-bottom: 20px;
+	color: white;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	
 }
 #about .col-right .cta {
 	color: black;
@@ -876,6 +882,35 @@ b.green{
     .welcome {
         padding: 20px;
     }
+	.address-container {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+		height: 50%;
+		align-items: center;
+		justify-content: space-around;
+		margin: 2% 5px;
+		position: relative;
+		z-index: 1;
+		overflow: hidden;
+	}
+	.address {
+		position: relative;
+		padding-top: 20px;
+		margin-right: 10px;
+		font-size: 1.5rem;
+	}
+	.address::after{
+		border-bottom:4px solid white;
+	}
+
+	.address-icon {
+		position: absolute;
+		top: 23px;
+		left: 0;
+		font-size: 20px;
+		color: #ff0000 ;
+	}
 }
 
 
